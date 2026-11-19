@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Jade",
+    "category": "Rüstung",
+    "id": 0,
+    "d": 6,
+    "rd": 7,
+    "md": 10,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Mythril",
+    "category": "Rüstung",
+    "id": 1,
+    "d": 10,
+    "rd": 9,
+    "md": 9,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Flüssigmetall",
+    "category": "Rüstung",
+    "id": 2,
+    "d": 9,
+    "rd": 8,
+    "md": 9,
+    "speed": 0,
+    "move": 1
+  },
+
+  {
+    "name": "Diamant",
+    "category": "Rüstung",
+    "id": 3,
+    "d": 9,
+    "rd": 10,
+    "md": 8,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Chrom",
+    "category": "Rüstung",
+    "id": 4,
+    "d": 8,
+    "rd": 8,
+    "md": 8,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Nanometall",
+    "category": "Rüstung",
+    "id": 5,
+    "d": 8,
+    "rd": 6,
+    "md": 8,
+    "speed": 1,
+    "move": 1
+  },
+
+  {
+    "name": "Stahl",
+    "category": "Rüstung",
+    "id": 6,
+    "d": 7,
+    "rd": 8,
+    "md": 7,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Gold",
+    "category": "Rüstung",
+    "id": 7,
+    "d": 7,
+    "rd": 7,
+    "md": 7,
+    "speed": 0,
+    "move": -1
+  },
+
+  {
+    "name": "Karbon",
+    "category": "Rüstung",
+    "id": 8,
+    "d": 8,
+    "rd": 9,
+    "md": 7,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Aluminium",
+    "category": "Rüstung",
+    "id": 9,
+    "d": 6,
+    "rd": 5,
+    "md": 7,
+    "speed": 1,
+    "move": 0
+  },
+
+  {
+    "name": "Silber",
+    "category": "Rüstung",
+    "id": 10,
+    "d": 7,
+    "rd": 7,
+    "md": 6,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Knochen",
+    "category": "Rüstung",
+    "id": 11,
+    "d": 7,
+    "rd": 6,
+    "md": 6,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Eisen",
+    "category": "Rüstung",
+    "id": 12,
+    "d": 6,
+    "rd": 7,
+    "md": 6,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Bronze",
+    "category": "Rüstung",
+    "id": 13,
+    "d": 5,
+    "rd": 5,
+    "md": 6,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Gummi",
+    "category": "Rüstung",
+    "id": 14,
+    "d": 5,
+    "rd": 6,
+    "md": 5,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Kunstleder",
+    "category": "Rüstung",
+    "id": 15,
+    "d": 4,
+    "rd": 4,
+    "md": 5,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Plastik",
+    "category": "Rüstung",
+    "id": 16,
+    "d": 2,
+    "rd": 1,
+    "md": 4,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Ketten",
+    "category": "Rüstung",
+    "id": 17,
+    "d": 6,
+    "rd": 6,
+    "md": 5,
+    "speed": -1,
+    "move": 0
+  },
+
+  {
+    "name": "Leder",
+    "category": "Rüstung",
+    "id": 18,
+    "d": 4,
+    "rd": 4,
+    "md": 4,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Silizium",
+    "category": "Rüstung",
+    "id": 19,
+    "d": 8,
+    "rd": 6,
+    "md": 5,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Stoff",
+    "category": "Rüstung",
+    "id": 20,
+    "d": 3,
+    "rd": 3,
+    "md": 2,
+    "speed": 0,
+    "move": 0
+  },
+
+  {
+    "name": "Stein",
+    "category": "Rüstung",
+    "id": 21,
+    "d": 5,
+    "rd": 5,
+    "md": 1,
+    "speed": -1,
+    "move": 0
+  }
+]

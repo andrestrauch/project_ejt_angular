@@ -4,6 +4,7 @@ import classData from './../../../../public/assets/data/classes.json' with { typ
 import elementData from './../../../../public/assets/data/elements.json' with { type: 'json' };
 import weaponData from './../../../../public/assets/data/weapons.json' with { type: 'json' };
 import shieldData from './../../../../public/assets/data/shields.json' with { type: 'json' };
+import armorData from './../../../../public/assets/data/armor.json' with { type: 'json' };
 
 interface Races {
   name: string;
@@ -113,6 +114,7 @@ export class Db {
   elements = signal<Elements[]>([]);
   weapons = signal<Weapons[]>([]);
   shields = signal<Shields[]>([]);
+  armor = signal<Armor[]>([]);
 
   dataTest() {
     if (raceData) {
@@ -149,6 +151,14 @@ export class Db {
         this.shields()[index] = shieldData[index];
       }
       //   console.log(this.shields());
+    }
+
+    if (armorData) {
+      //   console.log(armorData);
+      for (let index = 0; index < armorData.length; index++) {
+        this.armor()[index] = armorData[index];
+      }
+      //   console.log(this.armor());
     }
   }
 }
