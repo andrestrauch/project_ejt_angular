@@ -1,6 +1,7 @@
 import { Service, signal } from '@angular/core';
 import raceData from './../../../../public/assets/data/races.json' with { type: 'json' };
 import classData from './../../../../public/assets/data/classes.json' with { type: 'json' };
+import elementData from './../../../../public/assets/data/elements.json' with { type: 'json' };
 
 interface Races {
   name: string;
@@ -45,7 +46,7 @@ interface Elements {
   md: number;
   speed: number;
   move: number;
-  weakness: { name: string; multiplier: number }[];
+  weakness: {}[];
 }
 
 interface Wappons {
@@ -108,6 +109,7 @@ interface Armor {
 export class Db {
   races = signal<Races[]>([]);
   classes = signal<Classes[]>([]);
+  elements = signal<Elements[]>([]);
 
   dataTest() {
     if (raceData) {
@@ -120,6 +122,14 @@ export class Db {
       for (let index = 0; index < classData.length; index++) {
         this.classes()[index] = classData[index];
       }
+    }
+
+    if (elementData) {
+      //   console.log(elementData);
+      for (let index = 0; index < elementData.length; index++) {
+        this.elements()[index] = elementData[index];
+      }
+      //   console.log(this.elements());
     }
   }
 }
