@@ -3,6 +3,7 @@ import raceData from './../../../../public/assets/data/races.json' with { type: 
 import classData from './../../../../public/assets/data/classes.json' with { type: 'json' };
 import elementData from './../../../../public/assets/data/elements.json' with { type: 'json' };
 import weaponData from './../../../../public/assets/data/weapons.json' with { type: 'json' };
+import shieldData from './../../../../public/assets/data/shields.json' with { type: 'json' };
 
 interface Races {
   name: string;
@@ -81,7 +82,6 @@ interface Shields {
   rd: number;
   md: number;
   speed: number;
-  move: number;
   as: number;
   ras: number;
   mas: number;
@@ -112,6 +112,7 @@ export class Db {
   classes = signal<Classes[]>([]);
   elements = signal<Elements[]>([]);
   weapons = signal<Weapons[]>([]);
+  shields = signal<Shields[]>([]);
 
   dataTest() {
     if (raceData) {
@@ -140,6 +141,14 @@ export class Db {
         this.weapons()[index] = weaponData[index];
       }
       //   console.log(this.weapons());
+    }
+
+    if (shieldData) {
+      //   console.log(shieldData);
+      for (let index = 0; index < shieldData.length; index++) {
+        this.shields()[index] = shieldData[index];
+      }
+      //   console.log(this.shields());
     }
   }
 }
