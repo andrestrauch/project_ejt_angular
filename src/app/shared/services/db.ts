@@ -2,6 +2,7 @@ import { Service, signal } from '@angular/core';
 import raceData from './../../../../public/assets/data/races.json' with { type: 'json' };
 import classData from './../../../../public/assets/data/classes.json' with { type: 'json' };
 import elementData from './../../../../public/assets/data/elements.json' with { type: 'json' };
+import weaponData from './../../../../public/assets/data/weapons.json' with { type: 'json' };
 
 interface Races {
   name: string;
@@ -49,7 +50,7 @@ interface Elements {
   weakness: {}[];
 }
 
-interface Wappons {
+interface Weapons {
   name: string;
   category: string;
   cat: string;
@@ -110,6 +111,7 @@ export class Db {
   races = signal<Races[]>([]);
   classes = signal<Classes[]>([]);
   elements = signal<Elements[]>([]);
+  weapons = signal<Weapons[]>([]);
 
   dataTest() {
     if (raceData) {
@@ -130,6 +132,14 @@ export class Db {
         this.elements()[index] = elementData[index];
       }
       //   console.log(this.elements());
+    }
+
+    if (weaponData) {
+      //   console.log(weaponData);
+      for (let index = 0; index < weaponData.length; index++) {
+        this.weapons()[index] = weaponData[index];
+      }
+      //   console.log(this.weapons());
     }
   }
 }
