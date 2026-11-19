@@ -1,5 +1,6 @@
 import { Service, signal } from '@angular/core';
 import raceData from './../../../../public/assets/data/races.json' with { type: 'json' };
+import classData from './../../../../public/assets/data/classes.json' with { type: 'json' };
 
 interface Races {
   name: string;
@@ -106,11 +107,18 @@ interface Armor {
 @Service()
 export class Db {
   races = signal<Races[]>([]);
+  classes = signal<Classes[]>([]);
 
   dataTest() {
     if (raceData) {
       for (let index = 0; index < raceData.length; index++) {
         this.races()[index] = raceData[index];
+      }
+    }
+
+    if (classData) {
+      for (let index = 0; index < classData.length; index++) {
+        this.classes()[index] = classData[index];
       }
     }
   }

@@ -1,6 +1,10 @@
-<p>game-start works!</p>
 
 <h2>Game Rassen Listentest</h2>
 @for (item of dbService.races(); track $index) {
-  <p>{{ dbService.races()[$index].name }}</p>
+  <p>{{ dbService.races()[$index] | json }}</p>
+}
+
+<h2>Game Klassen Listentest</h2>
+@for (item of dbService.classes(); track $index) {
+  <p>{{ dbService.classes()[$index] | json }}</p>
 }

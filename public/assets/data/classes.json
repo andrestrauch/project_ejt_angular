@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Ninja",
+    "id": 0,
+    "lp": 2,
+    "mp": 5,
+    "a": 7,
+    "d": 3,
+    "ra": 9,
+    "rd": 6,
+    "ma": 6,
+    "md": 7,
+    "speed": 10,
+    "move": 1
+  },
+
+  {
+    "name": "Assassine",
+    "id": 1,
+    "lp": 1,
+    "mp": 7,
+    "a": 10,
+    "d": 1,
+    "ra": 7,
+    "rd": 8,
+    "ma": 6,
+    "md": 6,
+    "speed": 10,
+    "move": 1
+  },
+
+  {
+    "name": "Dieb",
+    "id": 2,
+    "lp": 4,
+    "mp": 8,
+    "a": 5,
+    "d": 2,
+    "ra": 7,
+    "rd": 7,
+    "ma": 7,
+    "md": 6,
+    "speed": 9,
+    "move": 1
+  },
+
+  {
+    "name": "Fechter",
+    "id": 3,
+    "lp": 7,
+    "mp": 5,
+    "a": 4,
+    "d": 8,
+    "ra": 4,
+    "rd": 5,
+    "ma": 6,
+    "md": 7,
+    "speed": 8,
+    "move": 0
+  },
+
+  {
+    "name": "Drachenritter",
+    "id": 4,
+    "lp": 10,
+    "mp": 6,
+    "a": 8,
+    "d": 8,
+    "ra": 4,
+    "rd": 2,
+    "ma": 5,
+    "md": 6,
+    "speed": 7,
+    "move": 0
+  },
+
+  {
+    "name": "Söldner",
+    "id": 5,
+    "lp": 8,
+    "mp": 4,
+    "a": 6,
+    "d": 6,
+    "ra": 8,
+    "rd": 7,
+    "ma": 4,
+    "md": 4,
+    "speed": 7,
+    "move": 0
+  },
+
+  {
+    "name": "Schnitter",
+    "id": 6,
+    "lp": 5,
+    "mp": 8,
+    "a": 9,
+    "d": 5,
+    "ra": 5,
+    "rd": 8,
+    "ma": 7,
+    "md": 7,
+    "speed": 7,
+    "move": 0
+  },
+
+  {
+    "name": "Pikenier",
+    "id": 7,
+    "lp": 7,
+    "mp": 4,
+    "a": 6,
+    "d": 7,
+    "ra": 6,
+    "rd": 7,
+    "ma": 5,
+    "md": 6,
+    "speed": 6,
+    "move": 0
+  },
+
+  {
+    "name": "Krieger",
+    "id": 8,
+    "lp": 7,
+    "mp": 5,
+    "a": 7,
+    "d": 7,
+    "ra": 6,
+    "rd": 7,
+    "ma": 7,
+    "md": 3,
+    "speed": 5,
+    "move": 0
+  },
+
+  {
+    "name": "DunkelRitter",
+    "id": 9,
+    "lp": 3,
+    "mp": 6,
+    "a": 9,
+    "d": 9,
+    "ra": 5,
+    "rd": 6,
+    "ma": 8,
+    "md": 5,
+    "speed": 5,
+    "move": 0
+  },
+
+  {
+    "name": "Zauberschütze",
+    "id": 10,
+    "lp": 2,
+    "mp": 6,
+    "a": 3,
+    "d": 3,
+    "ra": 8,
+    "rd": 8,
+    "ma": 10,
+    "md": 9,
+    "speed": 5,
+    "move": 0
+  },
+
+  {
+    "name": "Paladin",
+    "id": 11,
+    "lp": 6,
+    "mp": 3,
+    "a": 8,
+    "d": 10,
+    "ra": 4,
+    "rd": 6,
+    "ma": 8,
+    "md": 7,
+    "speed": 3,
+    "move": 0
+  },
+
+  {
+    "name": "Titan",
+    "id": 12,
+    "lp": 10,
+    "mp": 8,
+    "a": 9,
+    "d": 8,
+    "ra": 4,
+    "rd": 6,
+    "ma": 8,
+    "md": 4,
+    "speed": 1,
+    "move": 1
+  },
+
+  {
+    "name": "Sanitäter",
+    "id": 13,
+    "lp": 9,
+    "mp": 2,
+    "a": 3,
+    "d": 6,
+    "ra": 6,
+    "rd": 10,
+    "ma": 3,
+    "md": 5,
+    "speed": 9,
+    "move": 0
+  },
+
+  {
+    "name": "Kundschafter",
+    "id": 14,
+    "lp": 8,
+    "mp": 3,
+    "a": 4,
+    "d": 4,
+    "ra": 7,
+    "rd": 5,
+    "ma": 2,
+    "md": 4,
+    "speed": 9,
+    "move": 1
+  },
+
+  {
+    "name": "Soldat",
+    "id": 15,
+    "lp": 6,
+    "mp": 2,
+    "a": 5,
+    "d": 6,
+    "ra": 9,
+    "rd": 9,
+    "ma": 1,
+    "md": 2,
+    "speed": 8,
+    "move": 0
+  },
+
+  {
+    "name": "Mönch",
+    "id": 16,
+    "lp": 3,
+    "mp": 8,
+    "a": 3,
+    "d": 6,
+    "ra": 3,
+    "rd": 3,
+    "ma": 6,
+    "md": 8,
+    "speed": 8,
+    "move": 0
+  },
+
+  {
+    "name": "Kavellerie",
+    "id": 17,
+    "lp": 6,
+    "mp": 4,
+    "a": 5,
+    "d": 7,
+    "ra": 8,
+    "rd": 1,
+    "ma": 5,
+    "md": 5,
+    "speed": 7,
+    "move": 1
+  },
+
+  {
+    "name": "Werbestie",
+    "id": 18,
+    "lp": 9,
+    "mp": 2,
+    "a": 8,
+    "d": 8,
+    "ra": 6,
+    "rd": 2,
+    "ma": 2,
+    "md": 2,
+    "speed": 7,
+    "move": 0
+  },
+
+  {
+    "name": "Musketier",
+    "id": 19,
+    "lp": 4,
+    "mp": 4,
+    "a": 6,
+    "d": 6,
+    "ra": 8,
+    "rd": 4,
+    "ma": 4,
+    "md": 6,
+    "speed": 6,
+    "move": 0
+  },
+
+  {
+    "name": "Freiberufler",
+    "id": 20,
+    "lp": 5,
+    "mp": 7,
+    "a": 6,
+    "d": 5,
+    "ra": 5,
+    "rd": 3,
+    "ma": 5,
+    "md": 4,
+    "speed": 6,
+    "move": 0
+  },
+
+  {
+    "name": "Schwertmagier",
+    "id": 21,
+    "lp": 3,
+    "mp": 7,
+    "a": 7,
+    "d": 5,
+    "ra": 2,
+    "rd": 5,
+    "ma": 9,
+    "md": 8,
+    "speed": 6,
+    "move": 0
+  },
+
+  {
+    "name": "HeiligerRitter",
+    "id": 22,
+    "lp": 2,
+    "mp": 7,
+    "a": 6,
+    "d": 9,
+    "ra": 5,
+    "rd": 2,
+    "ma": 8,
+    "md": 9,
+    "speed": 5,
+    "move": 0
+  },
+
+  {
+    "name": "Rotmagier",
+    "id": 23,
+    "lp": 4,
+    "mp": 10,
+    "a": 4,
+    "d": 3,
+    "ra": 4,
+    "rd": 4,
+    "ma": 9,
+    "md": 8,
+    "speed": 5,
+    "move": 0
+  },
+
+  {
+    "name": "Berserker",
+    "id": 24,
+    "lp": 9,
+    "mp": 6,
+    "a": 10,
+    "d": 5,
+    "ra": 3,
+    "rd": 4,
+    "ma": 5,
+    "md": 5,
+    "speed": 4,
+    "move": 0
+  },
+
+  {
+    "name": "Jäger",
+    "id": 25,
+    "lp": 7,
+    "mp": 5,
+    "a": 4,
+    "d": 4,
+    "ra": 9,
+    "rd": 9,
+    "ma": 6,
+    "md": 4,
+    "speed": 4,
+    "move": 0
+  },
+
+  {
+    "name": "Samurai",
+    "id": 26,
+    "lp": 4,
+    "mp": 3,
+    "a": 8,
+    "d": 5,
+    "ra": 5,
+    "rd": 6,
+    "ma": 4,
+    "md": 7,
+    "speed": 4,
+    "move": 0
+  },
+
+  {
+    "name": "Kleriker",
+    "id": 27,
+    "lp": 5,
+    "mp": 9,
+    "a": 4,
+    "d": 7,
+    "ra": 2,
+    "rd": 3,
+    "ma": 7,
+    "md": 9,
+    "speed": 4,
+    "move": 0
+  },
+
+  {
+    "name": "Ritter",
+    "id": 28,
+    "lp": 6,
+    "mp": 5,
+    "a": 7,
+    "d": 10,
+    "ra": 3,
+    "rd": 8,
+    "ma": 3,
+    "md": 1,
+    "speed": 2,
+    "move": 0
+  },
+
+  {
+    "name": "Scharfschütze",
+    "id": 29,
+    "lp": 1,
+    "mp": 4,
+    "a": 3,
+    "d": 1,
+    "ra": 10,
+    "rd": 10,
+    "ma": 2,
+    "md": 5,
+    "speed": 8,
+    "move": 1
+  },
+
+  {
+    "name": "Gladiator",
+    "id": 30,
+    "lp": 8,
+    "mp": 1,
+    "a": 7,
+    "d": 7,
+    "ra": 3,
+    "rd": 5,
+    "ma": 3,
+    "md": 1,
+    "speed": 4,
+    "move": 0
+  },
+
+  {
+    "name": "Pirat",
+    "id": 31,
+    "lp": 7,
+    "mp": 7,
+    "a": 5,
+    "d": 4,
+    "ra": 7,
+    "rd": 4,
+    "ma": 3,
+    "md": 3,
+    "speed": 3,
+    "move": 0
+  },
+
+  {
+    "name": "Bandit",
+    "id": 32,
+    "lp": 5,
+    "mp": 6,
+    "a": 5,
+    "d": 4,
+    "ra": 6,
+    "rd": 7,
+    "ma": 4,
+    "md": 3,
+    "speed": 3,
+    "move": 0
+  },
+
+  {
+    "name": "Barde",
+    "id": 33,
+    "lp": 8,
+    "mp": 9,
+    "a": 1,
+    "d": 3,
+    "ra": 2,
+    "rd": 3,
+    "ma": 7,
+    "md": 8,
+    "speed": 3,
+    "move": 0
+  },
+
+  {
+    "name": "Weißmagier",
+    "id": 34,
+    "lp": 5,
+    "mp": 10,
+    "a": 1,
+    "d": 2,
+    "ra": 1,
+    "rd": 4,
+    "ma": 9,
+    "md": 10,
+    "speed": 2,
+    "move": 0
+  },
+
+  {
+    "name": "Schwarzmagier",
+    "id": 35,
+    "lp": 3,
+    "mp": 9,
+    "a": 2,
+    "d": 2,
+    "ra": 1,
+    "rd": 5,
+    "ma": 10,
+    "md": 10,
+    "speed": 2,
+    "move": 0
+  }
+]
