@@ -7,7 +7,15 @@
     "rd": 7,
     "md": 10,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.15 },
+      { "Durchbohren": 1 },
+      { "Stumpf": 1.3 },
+      { "Geschoss": 1 },
+      { "Explosiv": 0.9 },
+      { "Magisch": 0.75 }
+    ]
   },
 
   {
@@ -18,7 +26,15 @@
     "rd": 9,
     "md": 9,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 0.75 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -29,7 +45,15 @@
     "rd": 8,
     "md": 9,
     "speed": 0,
-    "move": 1
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.75 },
+      { "Durchbohren": 0.9 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1.15 }
+    ]
   },
 
   {
@@ -40,7 +64,15 @@
     "rd": 10,
     "md": 8,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.75 },
+      { "Durchbohren": 1.3 },
+      { "Stumpf": 0.9 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1.15 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -51,7 +83,15 @@
     "rd": 8,
     "md": 8,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 0.75 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1.3 },
+      { "Explosiv": 1.15 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -62,7 +102,15 @@
     "rd": 6,
     "md": 8,
     "speed": 1,
-    "move": 1
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 0.75 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1.15 }
+    ]
   },
 
   {
@@ -73,7 +121,15 @@
     "rd": 8,
     "md": 7,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 1 },
+      { "Stumpf": 1 },
+      { "Geschoss": 0.75 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1.15 }
+    ]
   },
 
   {
@@ -84,7 +140,15 @@
     "rd": 7,
     "md": 7,
     "speed": 0,
-    "move": -1
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.3 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 0.9 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1 },
+      { "Magisch": 0.75 }
+    ]
   },
 
   {
@@ -95,7 +159,15 @@
     "rd": 9,
     "md": 7,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.75 },
+      { "Durchbohren": 1 },
+      { "Stumpf": 1 },
+      { "Geschoss": 0.9 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1.15 }
+    ]
   },
 
   {
@@ -106,7 +178,15 @@
     "rd": 5,
     "md": 7,
     "speed": 1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.15 },
+      { "Durchbohren": 1.3 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 0.75 },
+      { "Magisch": 0.9 }
+    ]
   },
 
   {
@@ -117,7 +197,15 @@
     "rd": 7,
     "md": 6,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.75 },
+      { "Durchbohren": 0.9 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1.3 },
+      { "Explosiv": 1 },
+      { "Magisch": 1.15 }
+    ]
   },
 
   {
@@ -128,7 +216,15 @@
     "rd": 6,
     "md": 6,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1 },
+      { "Durchbohren": 0.75 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1.15 },
+      { "Explosiv": 0.9 },
+      { "Magisch": 1.3 }
+    ]
   },
 
   {
@@ -139,7 +235,15 @@
     "rd": 7,
     "md": 6,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1 },
+      { "Durchbohren": 0.9 },
+      { "Stumpf": 0.75 },
+      { "Geschoss": 1.15 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -150,7 +254,15 @@
     "rd": 5,
     "md": 6,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 0.9 },
+      { "Geschoss": 0.75 },
+      { "Explosiv": 1.3 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -161,7 +273,15 @@
     "rd": 6,
     "md": 5,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1 },
+      { "Durchbohren": 1 },
+      { "Stumpf": 0.75 },
+      { "Geschoss": 0.9 },
+      { "Explosiv": 1.15 },
+      { "Magisch": 1.3 }
+    ]
   },
 
   {
@@ -172,7 +292,15 @@
     "rd": 4,
     "md": 5,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.15 },
+      { "Durchbohren": 1.3 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 0.75 },
+      { "Magisch": 0.9 }
+    ]
   },
 
   {
@@ -183,7 +311,15 @@
     "rd": 1,
     "md": 4,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.75 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 1 },
+      { "Geschoss": 0.9 },
+      { "Explosiv": 1 },
+      { "Magisch": 1.3 }
+    ]
   },
 
   {
@@ -194,7 +330,15 @@
     "rd": 6,
     "md": 5,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 1.3 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1.15 },
+      { "Magisch": 0.75 }
+    ]
   },
 
   {
@@ -205,7 +349,15 @@
     "rd": 4,
     "md": 4,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.3 },
+      { "Durchbohren": 0.75 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1.15 },
+      { "Explosiv": 1 },
+      { "Magisch": 0.9 }
+    ]
   },
 
   {
@@ -216,7 +368,15 @@
     "rd": 6,
     "md": 5,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1 },
+      { "Durchbohren": 1 },
+      { "Stumpf": 1 },
+      { "Geschoss": 1 },
+      { "Explosiv": 1 },
+      { "Magisch": 1 }
+    ]
   },
 
   {
@@ -227,7 +387,15 @@
     "rd": 3,
     "md": 2,
     "speed": 0,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 1.3 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 1 },
+      { "Geschoss": 0.75 },
+      { "Explosiv": 1 },
+      { "Magisch": 0.9 }
+    ]
   },
 
   {
@@ -238,6 +406,14 @@
     "rd": 5,
     "md": 1,
     "speed": -1,
-    "move": 0
+    "move": 0,
+    "weapon weakness": [
+      { "Schneiden": 0.9 },
+      { "Durchbohren": 1.15 },
+      { "Stumpf": 1.3 },
+      { "Geschoss": 0.75 },
+      { "Explosiv": 1 },
+      { "Magisch": 1 }
+    ]
   }
 ]
