@@ -13,6 +13,6 @@ export class App {
   dbService = inject(Db);
 
   ngOnInit() {
-    this.dbService.dataTest();
+    this.dbService.loadData();
   }
 }

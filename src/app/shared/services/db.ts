@@ -103,8 +103,6 @@ interface Armor {
   move: number;
 }
 
-// Waffen Affinität
-
 // Waffenanfälligkeit
 
 @Service()
@@ -116,7 +114,7 @@ export class Db {
   shields = signal<Shields[]>([]);
   armor = signal<Armor[]>([]);
 
-  dataTest() {
+  loadData() {
     if (raceData) {
       for (let index = 0; index < raceData.length; index++) {
         this.races()[index] = raceData[index];
@@ -130,35 +128,27 @@ export class Db {
     }
 
     if (elementData) {
-      //   console.log(elementData);
       for (let index = 0; index < elementData.length; index++) {
         this.elements()[index] = elementData[index];
       }
-      //   console.log(this.elements());
     }
 
     if (weaponData) {
-      //   console.log(weaponData);
       for (let index = 0; index < weaponData.length; index++) {
         this.weapons()[index] = weaponData[index];
       }
-      //   console.log(this.weapons());
     }
 
     if (shieldData) {
-      //   console.log(shieldData);
       for (let index = 0; index < shieldData.length; index++) {
         this.shields()[index] = shieldData[index];
       }
-      //   console.log(this.shields());
     }
 
     if (armorData) {
-      //   console.log(armorData);
       for (let index = 0; index < armorData.length; index++) {
         this.armor()[index] = armorData[index];
       }
-      //   console.log(this.armor());
     }
   }
 }
